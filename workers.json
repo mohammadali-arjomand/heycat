@@ -20,5 +20,15 @@
             "version",
             "version?"
         ]
+    },
+    {
+        "name": "workers-list.php",
+        "keywords": [
+            "list",
+            "workers",
+            "worker",
+            "workers?",
+            "worker?"
+        ]
     }
 ]
