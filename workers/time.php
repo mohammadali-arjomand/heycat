@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-echo "Now, time is ";
+echo "Now is ";
 if (stripos($argv[1], "date")) {
     echo date("Y/m/d ");
 }
