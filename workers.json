@@ -11,7 +11,9 @@
         "name": "time.php",
         "keywords": [
             "time",
-            "clock"
+            "clock",
+            "current",
+            "currently"
         ]
     },
     {
