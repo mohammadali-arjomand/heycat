@@ -1,0 +1,24 @@
+[
+    {
+        "name": "name.php",
+        "keywords": [
+            "username",
+            "name",
+            "name?"
+        ]
+    },
+    {
+        "name": "time.php",
+        "keywords": [
+            "time",
+            "clock"
+        ]
+    },
+    {
+        "name": "version.php",
+        "keywords": [
+            "version",
+            "version?"
+        ]
+    }
+]
