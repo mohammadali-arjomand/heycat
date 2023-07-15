@@ -1,5 +1,5 @@
 #!/usr/bin/php
 <?php
 
-echo "You name is ";
+echo "Your name is ";
 echo "'" . exec("whoami") . "'\n";
