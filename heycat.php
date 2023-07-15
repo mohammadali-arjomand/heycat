@@ -10,7 +10,7 @@ try {
     $workerList = json_decode(file_get_contents("workers.json"));
 }
 catch (\Exception $e) {
-    echo "Loading workers list failed";
+    echo "Loading workers list failed\n";
     die;
 }
 
@@ -33,9 +33,15 @@ foreach($scores as $name => $score) {
         $highest_score = $score;
     }
     else if ($highest_score != 0 && $score == $highest_score) {
-        echo "Please enter a better command";
+        echo "Please enter a better command\n";
         die;
     }
+}
+
+// check command is defined
+if ($highest_name === "" && $highest_score === 0) {
+    echo "Sorry, cannot do this work\nYou can create or install a worker for this work\n";
+    die;
 }
 
 // execute worker
