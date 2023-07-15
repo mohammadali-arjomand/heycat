@@ -39,4 +39,5 @@ foreach($scores as $name => $score) {
 }
 
 // execute worker
-system("./workers/$highest_name");
+$args = join(" ", $words);
+system("./workers/$highest_name '$args'");
